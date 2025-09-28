@@ -1,0 +1,71 @@
+[classes] ['book' 'chair' 'desk' 'hammer' 'lecturestand']
+/usr/local/lib/python3.12/dist-packages/huggingface_hub/utils/_auth.py:94: UserWarning: 
+The secret `HF_TOKEN` does not exist in your Colab secrets.
+To authenticate with the Hugging Face Hub, create a token in your settings tab (https://huggingface.co/settings/tokens), set it as secret in your Google Colab and restart your session.
+You will be able to reuse this secret in all of your notebooks.
+Please note that authentication is recommended but still optional to access public models or datasets.
+  warnings.warn(
+model.safetensors: 100%
+ 114M/114M [00:00<00:00, 259MB/s]
+[001] tr_loss=8.7104 tr_mae=5.874 | va_mae=7.932 va_rmse=9.817 | va_f1M=0.159 va_acc=0.217 | score=7.773 | time=363.0s
+[002] tr_loss=5.6356 tr_mae=4.100 | va_mae=7.785 va_rmse=9.666 | va_f1M=0.421 va_acc=0.457 | score=7.364 | time=23.3s
+[003] tr_loss=4.8590 tr_mae=3.636 | va_mae=7.501 va_rmse=9.361 | va_f1M=0.781 va_acc=0.779 | score=6.721 | time=23.8s
+[004] tr_loss=5.0232 tr_mae=3.723 | va_mae=7.043 va_rmse=8.868 | va_f1M=0.893 va_acc=0.887 | score=6.150 | time=22.5s
+[005] tr_loss=5.4647 tr_mae=4.003 | va_mae=6.496 va_rmse=8.283 | va_f1M=0.953 va_acc=0.949 | score=5.544 | time=23.4s
+[006] tr_loss=4.7104 tr_mae=3.494 | va_mae=5.917 va_rmse=7.654 | va_f1M=0.982 va_acc=0.981 | score=4.934 | time=23.5s
+[007] tr_loss=4.6360 tr_mae=3.486 | va_mae=5.307 va_rmse=7.000 | va_f1M=0.989 va_acc=0.989 | score=4.317 | time=23.7s
+[008] tr_loss=4.4383 tr_mae=3.344 | va_mae=4.800 va_rmse=6.466 | va_f1M=0.991 va_acc=0.991 | score=3.808 | time=22.7s
+[009] tr_loss=3.8751 tr_mae=2.993 | va_mae=4.446 va_rmse=6.073 | va_f1M=0.993 va_acc=0.992 | score=3.454 | time=23.5s
+[010] tr_loss=3.2798 tr_mae=2.598 | va_mae=4.167 va_rmse=5.736 | va_f1M=0.993 va_acc=0.992 | score=3.174 | time=24.0s
+[011] tr_loss=3.3825 tr_mae=2.677 | va_mae=3.952 va_rmse=5.471 | va_f1M=0.993 va_acc=0.992 | score=2.960 | time=24.0s
+[012] tr_loss=2.9648 tr_mae=2.403 | va_mae=3.774 va_rmse=5.239 | va_f1M=0.993 va_acc=0.992 | score=2.781 | time=23.3s
+[013] tr_loss=2.7963 tr_mae=2.286 | va_mae=3.603 va_rmse=5.016 | va_f1M=0.996 va_acc=0.995 | score=2.607 | time=23.4s
+[014] tr_loss=2.5196 tr_mae=2.099 | va_mae=3.440 va_rmse=4.799 | va_f1M=0.996 va_acc=0.995 | score=2.444 | time=23.8s
+[015] tr_loss=2.3668 tr_mae=1.985 | va_mae=3.292 va_rmse=4.602 | va_f1M=0.997 va_acc=0.997 | score=2.295 | time=23.6s
+[016] tr_loss=2.4259 tr_mae=2.033 | va_mae=3.160 va_rmse=4.424 | va_f1M=0.997 va_acc=0.997 | score=2.163 | time=22.7s
+[017] tr_loss=2.0429 tr_mae=1.752 | va_mae=3.034 va_rmse=4.259 | va_f1M=0.997 va_acc=0.997 | score=2.037 | time=23.5s
+[018] tr_loss=1.9042 tr_mae=1.653 | va_mae=2.908 va_rmse=4.088 | va_f1M=0.997 va_acc=0.997 | score=1.910 | time=24.0s
+[019] tr_loss=1.8631 tr_mae=1.627 | va_mae=2.792 va_rmse=3.931 | va_f1M=0.997 va_acc=0.997 | score=1.795 | time=23.9s
+[020] tr_loss=1.6428 tr_mae=1.460 | va_mae=2.673 va_rmse=3.776 | va_f1M=0.999 va_acc=0.998 | score=1.674 | time=22.9s
+[021] tr_loss=1.7078 tr_mae=1.511 | va_mae=2.567 va_rmse=3.637 | va_f1M=0.999 va_acc=0.998 | score=1.569 | time=23.3s
+[022] tr_loss=1.3920 tr_mae=1.282 | va_mae=2.460 va_rmse=3.496 | va_f1M=0.999 va_acc=0.998 | score=1.461 | time=23.5s
+[023] tr_loss=1.4142 tr_mae=1.299 | va_mae=2.361 va_rmse=3.363 | va_f1M=1.000 va_acc=1.000 | score=1.361 | time=23.8s
+[024] tr_loss=1.3356 tr_mae=1.234 | va_mae=2.264 va_rmse=3.232 | va_f1M=1.000 va_acc=1.000 | score=1.264 | time=23.0s
+[025] tr_loss=1.1806 tr_mae=1.127 | va_mae=2.178 va_rmse=3.116 | va_f1M=1.000 va_acc=1.000 | score=1.178 | time=23.6s
+[026] tr_loss=1.1493 tr_mae=1.098 | va_mae=2.097 va_rmse=3.008 | va_f1M=1.000 va_acc=1.000 | score=1.097 | time=23.7s
+[027] tr_loss=1.0174 tr_mae=0.995 | va_mae=2.016 va_rmse=2.904 | va_f1M=1.000 va_acc=1.000 | score=1.016 | time=23.3s
+[028] tr_loss=0.9785 tr_mae=0.954 | va_mae=1.938 va_rmse=2.801 | va_f1M=1.000 va_acc=1.000 | score=0.938 | time=22.7s
+[029] tr_loss=0.9343 tr_mae=0.927 | va_mae=1.871 va_rmse=2.709 | va_f1M=1.000 va_acc=1.000 | score=0.871 | time=23.8s
+[030] tr_loss=0.8214 tr_mae=0.830 | va_mae=1.808 va_rmse=2.622 | va_f1M=1.000 va_acc=1.000 | score=0.808 | time=23.7s
+[031] tr_loss=0.8098 tr_mae=0.814 | va_mae=1.756 va_rmse=2.553 | va_f1M=1.000 va_acc=1.000 | score=0.756 | time=23.1s
+[032] tr_loss=0.7401 tr_mae=0.746 | va_mae=1.703 va_rmse=2.482 | va_f1M=1.000 va_acc=1.000 | score=0.703 | time=22.9s
+[033] tr_loss=0.7277 tr_mae=0.744 | va_mae=1.657 va_rmse=2.419 | va_f1M=1.000 va_acc=1.000 | score=0.657 | time=23.9s
+[034] tr_loss=0.7070 tr_mae=0.713 | va_mae=1.614 va_rmse=2.360 | va_f1M=1.000 va_acc=1.000 | score=0.614 | time=23.7s
+[035] tr_loss=0.6994 tr_mae=0.708 | va_mae=1.579 va_rmse=2.313 | va_f1M=1.000 va_acc=1.000 | score=0.579 | time=23.5s
+[036] tr_loss=0.6048 tr_mae=0.636 | va_mae=1.545 va_rmse=2.269 | va_f1M=1.000 va_acc=1.000 | score=0.545 | time=23.2s
+[037] tr_loss=0.5658 tr_mae=0.579 | va_mae=1.516 va_rmse=2.234 | va_f1M=1.000 va_acc=1.000 | score=0.516 | time=24.0s
+[038] tr_loss=0.5485 tr_mae=0.563 | va_mae=1.487 va_rmse=2.201 | va_f1M=1.000 va_acc=1.000 | score=0.487 | time=23.7s
+[039] tr_loss=0.5132 tr_mae=0.520 | va_mae=1.459 va_rmse=2.171 | va_f1M=1.000 va_acc=1.000 | score=0.459 | time=24.6s
+[040] tr_loss=0.5042 tr_mae=0.512 | va_mae=1.436 va_rmse=2.149 | va_f1M=1.000 va_acc=1.000 | score=0.436 | time=23.8s
+[041] tr_loss=0.4836 tr_mae=0.488 | va_mae=1.413 va_rmse=2.126 | va_f1M=1.000 va_acc=1.000 | score=0.413 | time=23.6s
+[042] tr_loss=0.4634 tr_mae=0.457 | va_mae=1.393 va_rmse=2.108 | va_f1M=1.000 va_acc=1.000 | score=0.393 | time=24.4s
+[043] tr_loss=0.4301 tr_mae=0.419 | va_mae=1.371 va_rmse=2.086 | va_f1M=1.000 va_acc=1.000 | score=0.371 | time=24.0s
+[044] tr_loss=0.4216 tr_mae=0.408 | va_mae=1.353 va_rmse=2.070 | va_f1M=1.000 va_acc=1.000 | score=0.353 | time=23.7s
+[045] tr_loss=0.4226 tr_mae=0.412 | va_mae=1.336 va_rmse=2.058 | va_f1M=1.000 va_acc=1.000 | score=0.336 | time=23.3s
+[046] tr_loss=0.4031 tr_mae=0.385 | va_mae=1.319 va_rmse=2.044 | va_f1M=1.000 va_acc=1.000 | score=0.319 | time=24.0s
+[047] tr_loss=0.4013 tr_mae=0.377 | va_mae=1.304 va_rmse=2.033 | va_f1M=1.000 va_acc=1.000 | score=0.304 | time=23.8s
+[048] tr_loss=0.3865 tr_mae=0.359 | va_mae=1.290 va_rmse=2.024 | va_f1M=1.000 va_acc=1.000 | score=0.290 | time=23.8s
+[049] tr_loss=0.3729 tr_mae=0.336 | va_mae=1.278 va_rmse=2.014 | va_f1M=1.000 va_acc=1.000 | score=0.278 | time=22.9s
+[050] tr_loss=0.3615 tr_mae=0.319 | va_mae=1.267 va_rmse=2.004 | va_f1M=1.000 va_acc=1.000 | score=0.267 | time=23.5s
+[051] tr_loss=0.3613 tr_mae=0.317 | va_mae=1.257 va_rmse=1.998 | va_f1M=1.000 va_acc=1.000 | score=0.257 | time=24.0s
+[052] tr_loss=0.3569 tr_mae=0.303 | va_mae=1.247 va_rmse=1.993 | va_f1M=1.000 va_acc=1.000 | score=0.247 | time=23.8s
+[053] tr_loss=0.3581 tr_mae=0.304 | va_mae=1.239 va_rmse=1.987 | va_f1M=1.000 va_acc=1.000 | score=0.239 | time=23.1s
+[054] tr_loss=0.3471 tr_mae=0.295 | va_mae=1.230 va_rmse=1.981 | va_f1M=1.000 va_acc=1.000 | score=0.230 | time=23.0s
+[055] tr_loss=0.3491 tr_mae=0.296 | va_mae=1.223 va_rmse=1.976 | va_f1M=1.000 va_acc=1.000 | score=0.223 | time=23.9s
+[056] tr_loss=0.3539 tr_mae=0.296 | va_mae=1.217 va_rmse=1.972 | va_f1M=1.000 va_acc=1.000 | score=0.217 | time=23.8s
+[057] tr_loss=0.3471 tr_mae=0.286 | va_mae=1.211 va_rmse=1.968 | va_f1M=1.000 va_acc=1.000 | score=0.211 | time=23.2s
+[058] tr_loss=0.3434 tr_mae=0.281 | va_mae=1.205 va_rmse=1.965 | va_f1M=1.000 va_acc=1.000 | score=0.205 | time=22.8s
+[059] tr_loss=0.3444 tr_mae=0.284 | va_mae=1.200 va_rmse=1.963 | va_f1M=1.000 va_acc=1.000 | score=0.200 | time=24.5s
+[060] tr_loss=0.3430 tr_mae=0.281 | va_mae=1.196 va_rmse=1.961 | va_f1M=1.000 va_acc=1.000 | score=0.196 | time=24.1s
+
+[Test] mae=1.144 rmse=1.972 | f1M=0.997 acc=0.997

@@ -1,0 +1,9 @@
+# === Large artifacts ===
+*.pth
+*.pt
+*.npy
+*.npz
+
+# 캐시/체크포인트 폴더
+convnext_tiny_multi_ckpt/
+logmel_cache_np/
